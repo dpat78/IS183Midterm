@@ -2,8 +2,45 @@
 <html>
 <head>
     <title>DavidPatterson-IS183 Midterm</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script type="text/javascript" src="./javascript/login.js"></script>
 </head>
 <body>
     <!-- html comment -->
+    <header class= "main-header box-shadow">
+			
+			<span class="logo">
+				<h1><img src="./images/logo.png"></h1>
+			</span>
+			<h1 class="header-quote">Fresno Mobile</h1>
+		</header>
+		
+		<section class="content-bottom">
+		
+			<article class="main-content-column">
+				<div class="login-form">
+					<h1 class="h1login">Login</h1>
+					<label for="username">Username</label>
+                    <input class="login-input" type="text" placeholder="Username"id="username"/>
+                    <label for="password">Password</label>
+                    <input class="login-input" type="password" placeholder="Password"id="password"/>
+					
+					<input class="login" type="button" value="Login" id="submit" onclick="validate()"/>
+				</div>
+                <p class="error message"></p>
+			</article>
+		</section>
+
+		<footer class= "footer box-shadow">
+			<span>
+			<p class="copyright" style="font-weight:bold;">(c) Created by David Patterson</p>
+			<ul class="footer-contact">
+				<li>5241 N Maple Ave<br />Fresno,CA<br />93710</li>
+				<li class="number">559-111-2222</li>
+				<li class="number">dcpatters@mail.fresnostate.edu</li>
+			</ul>
+			</span>
+		</footer>
+
 </body>
 </html>
